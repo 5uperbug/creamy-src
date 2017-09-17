@@ -27,7 +27,7 @@
   <!-- JS LIBS -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="/js/featherlight.min.js"></script>
-  <script src="/js/index.js"></script>
+  <script src="js/featherlight.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
