@@ -8,20 +8,20 @@
       <h4>You can reach out to us at :</h4>
       <p>
         <a href="mailto:info@thecreamyconnection.com">
-          <img src="/images/email.png" alt="Email"  class="hidden-xs hidden-sm">
+          <img src="images/email.png" alt="Email"  class="hidden-xs hidden-sm">
           info@thecreamyconnection.com
         </a>
       </p>
       <div class="holder">
         <p>
           <a href="https://www.instagram.com/thecreamyconnection/" target="_blank">
-            <img src="/images/instagram.png" alt="Instagram">
+            <img src="images/instagram.png" alt="Instagram">
             <span class="hidden-xs hidden-sm">instagram.com/thecreamyconnection</span>
           </a>
         </p>
         <p>
           <a href="https://www.facebook.com/thecreamyconnection/" target="_blank">
-            <img src="/images/facebook.png" alt="Facebook">
+            <img src="images/facebook.png" alt="Facebook">
             <span class="hidden-xs hidden-sm">facebook.com/thecreamyconnection</span>
           </a>
         </p>

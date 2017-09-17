@@ -6,7 +6,7 @@
 <div class="home-section container-fluid fullscreen">
   <div class="logo-container valigner">
     <div class="valigner-item">
-      <img src="/images/logo.png" alt="The Creamy Connection">
+      <img src="images/logo.png" alt="The Creamy Connection">
     </div>
   </div>
   <div class="home-nav-container hidden-sm hidden-xs">
