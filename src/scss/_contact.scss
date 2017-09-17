@@ -1,0 +1,106 @@
+.contact-section {
+  position: relative;
+  background: url(/images/contact-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .contact-body {
+    position: relative;
+    background-color: rgba(245, 225, 121, 0.8);
+    color: #333;
+    margin: 0 7%;
+    margin-top: 10%;
+    padding: 5% 2%;
+
+    .links {
+      color: #333;
+
+      @media only screen and (max-width: $break-md) {
+        .holder {
+          width: 108px;
+          margin-left: auto;
+          margin-right: auto;
+          p {
+            display: inline-block;
+          }
+        }
+
+      }
+
+      h4 {
+        margin-top: 40px;
+        @media only screen and (max-width: $break-md) {
+          margin-top: 30px;
+        }
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+
+        &:hover {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+
+      img {
+        width: 50px;
+        height: auto;
+
+        @media only screen and (max-width: $break-md) {
+        }
+      }
+    }
+
+    .title-container {
+      height: 280px;
+      border-right: 1px solid #333;
+      @media only screen and (max-width: $break-md) {
+        height: auto;
+        border: none;
+      }
+      >.title {
+        position: absolute;
+        @media only screen and (min-width: $break-md) {
+          bottom: 20px;
+          right: 20px;
+        }
+
+        @media only screen and (max-width: $break-md) {
+          position: relative;
+          text-align: center;
+        }
+      }
+    }
+
+
+    .google-maps {
+      position: relative;
+      padding-bottom: 75%; // This is the aspect ratio
+      height: 0;
+      overflow: hidden;
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+
+
+
+  .copyright {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #fff;
+    padding-top: 1%;
+  }
+}

@@ -1,0 +1,9 @@
+<div id="sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn closeNav">&times;</a>
+
+  <a href="#home" class="scroll closeNav">HOME</a>
+  <a href="#about" class="scroll closeNav">ABOUT</a>
+  <a href="#products" class="scroll closeNav">PRODUCTS</a>
+  {# <a href="#events" class="scroll closeNav">EVENTS/CLASSES</a> #}
+  <a href="#contact" class="scroll closeNav">CONTACT US</a>
+</div>

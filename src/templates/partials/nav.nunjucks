@@ -1,0 +1,12 @@
+<!-- Static navbar -->
+<div id="nav" class="custom-nav-container hidden-sm hidden-xs">
+  <nav class="custom-nav">
+    <ul>
+      <li><a href="#home" class="nav-logo-container scroll"><img src="/images/logo-nav.png" alt="The Creamy Connection"></a></li>
+      <li><a href="#about" class="nav-link scroll">ABOUT</a></li>
+      <li><a href="#products" class="nav-link scroll">PRODUCTS</a></li>
+      {# <li><a href="#events" class="nav-link scroll">EVENTS/CLASSES</a></li> #}
+      <li><a href="#contact" class="nav-link scroll">CONTACT US</a></li>
+    </ul>
+  </nav>
+</div>

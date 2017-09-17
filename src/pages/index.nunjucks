@@ -1,0 +1,33 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+  {% include "partials/sidenav.nunjucks" %}
+
+  {% include "partials/nav.nunjucks" %}
+
+  {% include "partials/home-section.nunjucks" %}
+
+  {% include "partials/about-section.nunjucks" %}
+
+  {% include "partials/products-section.nunjucks" %}
+
+  {# {% include "partials/events-section.nunjucks" %} #}
+
+  {% include "partials/contact-section.nunjucks" %}
+
+
+  <div class="sticky-social hidden-sx hidden-sm">
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/thecreamyconnection" target="_blank">
+          <img src="/images/instagram.png" alt="Instagram">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/thecreamyconnection" target="_blank">
+          <img src="/images/facebook.png" alt="Facebook">
+        </a>
+      </li>
+    </ul>
+  </div>
+
+{% endblock %}

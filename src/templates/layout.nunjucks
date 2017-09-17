@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Mobile-friendly viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="5uperbug">
+
+  <title>The Creamy Connection</title>
+
+  <!-- SEO CRAP -->
+  <meta name="keywords" content="The Creamy Connection">
+  <meta name="Robots" content="all"/>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- You write code for this content block in another file -->
+  {% block content %} {% endblock %}
+
+  <!-- JS LIBS -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/js/featherlight.min.js"></script>
+  <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.about-section {
+  background: url(/images/about.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+
+  .about-body {
+    padding-top: 2%;
+    position: absolute;
+    bottom: 100px;
+
+    @media only screen and (max-width: $break-md) {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    h2 {
+      font-size: 30px;
+      color: #D81B1E;
+      margin-bottom: 15px;
+    }
+
+    p {
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      color: #333;
+      margin: 0 0 20px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<!-- Use to open the sidenav -->
+<div class="hamburger visible-xs visible-sm">
+  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+</div>
+<a id="home" class="anchor home-anchor"></a>
+<div class="home-section container-fluid fullscreen">
+  <div class="logo-container valigner">
+    <div class="valigner-item">
+      <img src="/images/logo.png" alt="The Creamy Connection">
+    </div>
+  </div>
+  <div class="home-nav-container hidden-sm hidden-xs">
+    <nav class="home-nav">
+      <ul>
+        <li><a href="#about" class="scroll">ABOUT</a></li>
+        <li><a href="#products" class="scroll">PRODUCTS</a></li>
+        {# <li><a href="#events" class="scroll">EVENTS/CLASSES</a></li> #}
+        <li><a href="#contact" class="scroll">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="chev-container visible-sm visible-xs">
+    <a href="#about" class="chev scroll">
+      <img src="images/chev-white.png" alt="scroll down" />
+    </a>
+  </div>
+</div>
