@@ -12,8 +12,8 @@ var buildQ  = [
 ]
 
 gulp.task('build', buildQ, function() {
-  // var cmd = spawn('./mv-build.sh', [], {stdio: 'inherit'});
-  // cmd.on('close', function (code) {
-  //   console.log('mv-build.sh exited with code ' + code);
-  // });
+  var cmd = spawn('./mv-build.sh', [], {stdio: 'inherit'});
+  cmd.on('close', function (code) {
+    console.log('mv-build.sh exited with code ' + code);
+  });
 });
